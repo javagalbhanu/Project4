@@ -38,7 +38,9 @@ public class LoginPage {
 	public void verifyErrMsgIsDisplayed(){
 		Assert.assertTrue(errMsg.isDisplayed());
 	}
-	
-	
-	
-}
+  }
+
+
+
+
+
