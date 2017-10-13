@@ -60,7 +60,6 @@ public class EnterTimeTrackPage {
 			Reporter.log("Title is NOT Matching",true);
 			Assert.fail();
 		}
-		
 	}
 }
 
