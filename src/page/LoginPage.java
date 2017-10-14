@@ -36,6 +36,12 @@ public class LoginPage {
 	}
 	
 	public void verifyErrMsgIsDisplayed(){
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		Assert.assertTrue(errMsg.isDisplayed());
 	}
   }

@@ -30,10 +30,22 @@ public class EnterTimeTrackPage {
 	}
 	
 	public void clickHelp(){
+		try {
+			Thread.sleep(4000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		helpMenu.click();
 	}
 	
 	public void clickAboutMenu(){
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		aboutMenu.click();
 	}
 	
@@ -47,6 +59,12 @@ public class EnterTimeTrackPage {
 	}
 	
 	public void clickLogout(){
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		logoutLink.click();
 	}
 	
