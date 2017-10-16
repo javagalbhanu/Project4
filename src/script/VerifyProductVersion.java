@@ -16,9 +16,9 @@ public class VerifyProductVersion extends BaseTest{
 		String version=Lib.getCellValue(XL_PATH,sheet,1,2);
 		//enter valid username
 				LoginPage l=new LoginPage(driver);
-				l.setUserName("admin");
+				l.setUserName(un);
 				//enter valid password
-				l.setPassword("manager");
+				l.setPassword(pw);
 				//click on login button
 				l.clickLogin();
 				//click help
